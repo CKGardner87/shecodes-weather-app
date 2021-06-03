@@ -1,0 +1,111 @@
+html {
+  background-color: rgba(115, 243, 252, 0.3);
+  background-size: 100%;
+  min-height: 100%;
+}
+
+.container {
+  background-color: rgba(115, 243, 252, 0.3);
+  background-size: 100%;
+  min-height: 100%;
+  padding: 0;
+}
+
+.card {
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  position: relative;
+  box-shadow: 5px 5px 10px #c8caca;
+}
+.card-title {
+  font-size: 48px;
+}
+
+.cels-far {
+  font-size: 30px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 3px 6px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #adedf7;
+  box-shadow: 5px 5px 10px #c8caca;
+}
+
+.emoji {
+  font-size: 20px;
+}
+
+.eachDay,
+.highLow {
+  font-size: 10px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search {
+  margin: 15px;
+  margin-top: 25px;
+  margin-left: 5px;
+  background-color: rgba(179, 242, 247, 0.973);
+  border-radius: 30px;
+  padding: 5px 15px;
+  max-height: 48px;
+  transition: all, 150ms, ease-in-out;
+}
+.search:hover {
+  cursor: pointer;
+  background-color: rgba(129, 184, 247, 0.973);
+}
+.currentLocation {
+  background-color: rgba(199, 159, 236, 0.952);
+  transition: all, 150ms, ease-in-out;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin: 0 auto;
+  display: block;
+}
+.currentLocation:hover {
+  background-color: rgba(167, 85, 243, 0.98);
+  color: #fff;
+  cursor: pointer;
+}
+
+.findCity {
+  margin: 25px;
+  background-color: rgba(241, 202, 116, 0.89);
+  border-radius: 30px;
+  transition: all, 150ms, ease-in-out;
+  max-width: 150px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.inputGroup {
+  display: flex;
+  justify-content: center;
+}
+input:hover {
+  background-color: rgb(250, 250, 183);
+}
+
+#feels-like,
+#humidity {
+  font-size: 18px;
+}
+
+#description,
+#current-date-time {
+  font-size: 22px;
+}
+
+#city-name,
+#current-temp {
+  font-size: 30px;
+  text-shadow: rgb(68, 68, 68) 1px 0 10px;
+}

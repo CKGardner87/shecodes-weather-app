@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>sheCodes Plus homework</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    
+      <div
+        class="card border-primary text-white bg-info mb-3 current-cond"
+        style="max-width: 15rem" >
+        <div class="card-body">
+          <h5 class="card-title" id = current-emoji>🌧</h5>
+          <p class="card-text" id= "current-temp">11ºC</p>
+          <p class="card-text" id= "feels-like">Feels like</p>
+          <p class="card-text" id ="description">Clear</p>
+          <p class="card-text" id= "humidity">humidity</p>
+          <p class="location" id ="city-name">Bournemouth, GB</p>
+          <h4 id="current-date-time">date time</h4>
+        </div>
+      </div>
+      <div class="cels-far">
+        <h3> 
+         <a href="#" id="celsius"> ºC </a> / <a href="#" id="farenheit"> ºF </a>
+        </h3>
+      </div>
+
+      <div class="row thisWeek">
+            <div class="card col-2 nextDay">
+              <div class="card-body eachDay">
+                <div class="card-text emoji">🌥
+                </div>
+                <div class="card-text highLow"> 
+                  <strong>14º </strong> /6º
+                </div>
+              </div>
+    </div>
+     <div class="card col-2 nextDay">
+              <div class="card-body eachDay">
+                <div class="card-text emoji">🌦
+                </div>
+                <div class="card-text highLow"> 
+                  <strong>15º </strong> /3º
+                </div>
+              </div>
+    </div>
+     <div class="card col-2 nextDay">
+              <div class="card-body eachDay">
+                <div class="card-text emoji">🌤
+                </div>
+                <div class="card-text highLow"> 
+                  <strong>15º </strong> /6º
+                </div>
+              </div>
+    </div>
+     <div class="card col-2 nextDay">
+              <div class="card-body eachDay">
+                <div class="card-text emoji">🌦
+                </div>
+                <div class="card-text highLow"> 
+                  <strong>12º </strong> /3º
+                </div>
+              </div>
+    </div>
+     <div class="card col-2 nextDay">
+              <div class="card-body eachDay">
+                <div class="card-text emoji">🌤
+                </div>
+                <div class="card-text highLow"> 
+                  <strong>16º </strong> /8º
+                </div>
+              </div>
+    </div>
+    </div>
+    <div class="row">
+      
+            <div class="card col-2">
+              <div class="card-body eachDay">
+                <div class="card-text">Today
+                </div>
+              </div>
+    </div>
+       <div class="card col-2">
+              <div class="card-body eachDay">
+                <div class="card-text">Tues
+                </div>
+              </div>
+    </div>
+      <div class="card col-2">
+              <div class="card-body eachDay">
+                <div class="card-text">Weds
+                </div>
+              </div>
+    </div>
+       <div class="card col-2">
+              <div class="card-body eachDay">
+                <div class="card-text">Thurs
+                </div>
+              </div>
+    </div>
+       <div class="card col-2">
+              <div class="card-body eachDay">
+                <div class="card-text">Fri
+                </div>
+              </div>
+   </div>
+   </div>
+   <br />
+    <form id="search-form">
+      <div class="inputGroup">
+        <input
+          type="text"
+          class="findCity"
+          id="find-city"
+          placeholder="Search for City"
+          autofill
+        />
+        <input class="search" id="city-searcher" type="submit" value="Search" />
+      </div>
+      <div>   
+          <button class="currentLocation" id="current-location" type="button">
+            Current Location
+          </button>
+        </div>
+    </form>
+   </div>
+    </div>
+</form>
+            </div>
+            </div>
+            <script src="src/index.js"></script>
+  </body>
+</html>
