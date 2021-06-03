@@ -1,11 +1,19 @@
 html {
-  background-color: rgba(115, 243, 252, 0.3);
+  background: linear-gradient(
+    180deg,
+    rgb(33, 156, 238) 15%,
+    rgb(233, 232, 19) 75%
+  );
   background-size: 100%;
   min-height: 100%;
 }
 
 .container {
-  background-color: rgba(115, 243, 252, 0.3);
+  background: linear-gradient(
+    180deg,
+    rgb(33, 156, 238) 15%,
+    rgb(233, 232, 19) 75%
+  );
   background-size: 100%;
   min-height: 100%;
   padding: 0;
