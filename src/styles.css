@@ -76,6 +76,7 @@ html {
   border-radius: 20px;
   margin-left: 25px;
   margin-top: 25px;
+
   margin: 0 auto;
   display: block;
 }
@@ -116,4 +117,16 @@ input:hover {
 #current-temp {
   font-size: 30px;
   text-shadow: rgb(68, 68, 68) 1px 0 10px;
+}
+#open-source {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  width: 400px;
+  position: relative;
+  bottom: 2px;
+}
+
+#github-link {
+  color: #8b80f0;
 }
